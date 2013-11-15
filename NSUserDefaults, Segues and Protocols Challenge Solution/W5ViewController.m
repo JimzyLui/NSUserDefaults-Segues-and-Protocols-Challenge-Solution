@@ -7,6 +7,7 @@
 //
 
 #import "W5ViewController.h"
+#import "W5CreateAccountVC.h"  //so I can use the #define
 
 @interface W5ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.userNameLabel.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    self.passwordLabel.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_PASSWORD];
 }
 
 - (void)didReceiveMemoryWarning

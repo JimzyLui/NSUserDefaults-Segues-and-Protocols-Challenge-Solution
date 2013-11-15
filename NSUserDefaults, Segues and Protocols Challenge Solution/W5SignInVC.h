@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "W5CreateAccountVC.h"
 
-@interface W5SignInVC : UIViewController
+@interface W5SignInVC : UIViewController<W5CreateAccountVCDelegate>
+
 @property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 - (IBAction)loginButtonPressed:(UIButton *)sender;
