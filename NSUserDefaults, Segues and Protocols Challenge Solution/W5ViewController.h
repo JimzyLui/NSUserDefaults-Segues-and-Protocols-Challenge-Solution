@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface W5ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *passwordLabel;
 
 @end

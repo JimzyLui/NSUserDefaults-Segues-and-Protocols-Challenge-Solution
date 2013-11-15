@@ -21,6 +21,8 @@
 		7D02BDF818343B8D00CFC496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02BDDA18343B8D00CFC496 /* UIKit.framework */; };
 		7D02BE0018343B8D00CFC496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D02BDFE18343B8D00CFC496 /* InfoPlist.strings */; };
 		7D02BE0218343B8D00CFC496 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D02BE0118343B8D00CFC496 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		7D02BE0D18354DAA00CFC496 /* W5SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D02BE0C18354DAA00CFC496 /* W5SignInVC.m */; };
+		7D02BE1018354DD500CFC496 /* W5CreateAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D02BE0F18354DD500CFC496 /* W5CreateAccountVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7D02BDFD18343B8D00CFC496 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7D02BDFF18343B8D00CFC496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D02BE0118343B8D00CFC496 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7D02BE0B18354DAA00CFC496 /* W5SignInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = W5SignInVC.h; sourceTree = "<group>"; };
+		7D02BE0C18354DAA00CFC496 /* W5SignInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = W5SignInVC.m; sourceTree = "<group>"; };
+		7D02BE0E18354DD500CFC496 /* W5CreateAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = W5CreateAccountVC.h; sourceTree = "<group>"; };
+		7D02BE0F18354DD500CFC496 /* W5CreateAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = W5CreateAccountVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				7D02BDEC18343B8D00CFC496 /* W5ViewController.m */,
 				7D02BDEE18343B8D00CFC496 /* Images.xcassets */,
 				7D02BDDD18343B8D00CFC496 /* Supporting Files */,
+				7D02BE0B18354DAA00CFC496 /* W5SignInVC.h */,
+				7D02BE0C18354DAA00CFC496 /* W5SignInVC.m */,
+				7D02BE0E18354DD500CFC496 /* W5CreateAccountVC.h */,
+				7D02BE0F18354DD500CFC496 /* W5CreateAccountVC.m */,
 			);
 			path = "NSUserDefaults, Segues and Protocols Challenge Solution";
 			sourceTree = "<group>";
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D02BE0D18354DAA00CFC496 /* W5SignInVC.m in Sources */,
 				7D02BDED18343B8D00CFC496 /* W5ViewController.m in Sources */,
 				7D02BDE718343B8D00CFC496 /* W5AppDelegate.m in Sources */,
+				7D02BE1018354DD500CFC496 /* W5CreateAccountVC.m in Sources */,
 				7D02BDE318343B8D00CFC496 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
